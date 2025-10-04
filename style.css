@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#letras{
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    background-color: rgb(242, 241, 241);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a{
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(83, 76, 76);
+    transition: 0.3s;
+}
+
+#datos{
+    margin: 5px;
+    font-size: 16px;
+}
+
+/*Pagina con la Letra R*/
+
+#mainR{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#headerR{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#regresar{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#regresar a{
+    border: none;
+}
+
+/*Pagina con la Letra S*/
+
+#mainS{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#headerS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+#regresar{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#regresar a{
+    border: none;
+}
