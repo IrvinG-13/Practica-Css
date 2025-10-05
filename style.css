@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,6 +35,9 @@ a:hover{
     background-color: rgb(83, 76, 76);
     transition: 0.3s;
 }
+a :visited{
+    color: blueviolet;
+}
 
 #datos{
     margin: 5px;
@@ -43,18 +46,35 @@ a:hover{
 
 /*Pagina con la Letra R*/
 
-#mainR{
+#mainR , #mainS{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-#headerR{
+#headerR, #headerS{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    width: 100%;
     font-size: 12px;
+    background-color: rgb(139, 136, 136);
+    color: rgb(242, 241, 241);
+}
+
+#sectionR, #sectionS{
+    padding: 20px;
+    background-color: rgb(255, 242, 227);
+
+}
+
+ol li {
+    margin: 10px;
+}
+img{
+    width: 50%;
+    height: auto;
 }
 
 #regresar{
@@ -64,29 +84,22 @@ a:hover{
 
 #regresar a{
     border: none;
+}
+
+#footerR , #footerS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(139, 136, 136);
 }
 
 /*Pagina con la Letra S*/
-
-#mainS{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+#headerS, #footerS{
+    background-color: salmon;
 }
 
-#headerS{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    font-size: 12px;
-}
-
-#regresar{
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#regresar a{
-    border: none;
+#sectionS{
+    background-color: rgb(217, 190, 92);
 }
