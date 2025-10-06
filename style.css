@@ -35,9 +35,8 @@ a:hover{
     background-color: rgb(83, 76, 76);
     transition: 0.3s;
 }
-a :visited{
-    color: blueviolet;
-}
+
+
 
 #datos{
     margin: 5px;
