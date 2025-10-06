@@ -1,2 +1,2 @@
 Practica CSS
-link de la pagina : practica-css-qk2m.vercel.app
+link de la pagina : https://practica-css-qk2m.vercel.app
