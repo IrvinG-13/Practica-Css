@@ -46,13 +46,13 @@ a :visited{
 
 /*Pagina con la Letra R*/
 
-#mainR , #mainS{
+#mainR , #mainS, #mainA,#mainJ,#mainD{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-#headerR, #headerS{
+#headerR, #headerS,#headerA,#headerJ,#headerD{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,7 +63,7 @@ a :visited{
     color: rgb(242, 241, 241);
 }
 
-#sectionR, #sectionS{
+#sectionR, #sectionS,#sectionA,#sectionJ,#sectionD{
     padding: 20px;
     background-color: rgb(255, 242, 227);
 
@@ -86,7 +86,7 @@ img{
     border: none;
 }
 
-#footerR , #footerS{
+#footerR , #footerS,#footerA,#footerJ,#footerD{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,4 +102,25 @@ img{
 
 #sectionS{
     background-color: rgb(217, 190, 92);
+}
+/*Pagina con la letra A*/
+#headerA, #footerA{
+    background-color: darksalmon;
+}
+#sectionA{
+    background-color: aquamarine;
+}
+/*Pagina con la letra J*/
+#headerJ,#footerJ{
+    background-color: lightpink;
+}
+#sectionJ{
+    background-color: greenyellow;
+}
+/*Pagina de la letra D*/
+#headerD,#footerD{
+    background-color: palevioletred;
+}
+#sectionD{
+    background-color: lightyellow;
 }
